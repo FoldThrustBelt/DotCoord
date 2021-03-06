@@ -1,20 +1,4 @@
-######## PROYECTO CLASIFICADOR DE LÍNEAS ########
-# La finalidad de este script es facilitar la pega de caleta de geólogos para pasar datos de rumbo y manteo
-# al ArcGIS/QGIS luego de volver de terreno.
-
-### USER INTERFACE ##
-
-
-#layout = [[sg.Text("Ingrese el nombre del archivo KML a leer (ex. oLa.kml):")], [sg.Button("OK")]]
-
-#file_list_column = [
-#    [
-#        sg.Text("Image Folder"),
-#        sg.In(size=(25, 1), enable_events=True, key="-FOLDER-"),
-#        sg.FolderBrowse(),
-#    ]
-### SCRIPT ##
-#print("Ingrese el nombre del archivo KML a leer (ex. oLa.kml): ")
+print("Ingrese el nombre del archivo KML a leer (ex. oLa.kml): ")
 kmlinput = input()
 
 # Importando módulos
